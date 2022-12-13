@@ -60,7 +60,7 @@
 					<topPen lineWidth="0.0" lineColor="#A0D042"/>
 				</box>
 				<textElement textAlignment="Left">
-					<font fontName="open sans" size="20" isBold="true"/>
+					<font fontName="Open Sans" size="20" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["TABLE OF CONTENTS"]]></textFieldExpression>
 			</textField>
@@ -71,7 +71,7 @@
 					<printWhenExpression><![CDATA[$P{printHeaderAndFooter}==TRUE()]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Left" markup="styled">
-					<font fontName="open sans"/>
+					<font fontName="Open Sans"/>
 				</textElement>
 				<textFieldExpression><![CDATA["USBR Draft Validation &#10;Project: "+$P{watershedName}]]></textFieldExpression>
 			</textField>
@@ -81,7 +81,7 @@
 					<printWhenExpression><![CDATA[$P{printHeaderAndFooter}==TRUE()]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Right" markup="styled">
-					<font fontName="open sans"/>
+					<font fontName="Open Sans"/>
 				</textElement>
 				<textFieldExpression><![CDATA["Report Date: " + new SimpleDateFormat("MMMM dd, yyyy").format(new Date()) + "&#10;Simulation: " + $P{simulationName}]]></textFieldExpression>
 			</textField>
@@ -101,7 +101,7 @@
 				</reportElement>
 				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="4"/>
 				<textElement markup="styled">
-					<font fontName="open sans" size="13" isBold="false"/>
+					<font fontName="Open Sans" size="13" isBold="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{label}]]></textFieldExpression>
 				<hyperlinkAnchorExpression><![CDATA[$F{label}]]></hyperlinkAnchorExpression>
@@ -114,7 +114,7 @@
 				</reportElement>
 				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1"/>
 				<textElement textAlignment="Right" verticalAlignment="Bottom">
-					<font fontName="open sans" size="13" isBold="false"/>
+					<font fontName="Open Sans" size="13" isBold="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$V{PAGE_NUMBER} + $F{pageIndex}]]></textFieldExpression>
 				<hyperlinkAnchorExpression><![CDATA[$F{label}]]></hyperlinkAnchorExpression>
@@ -132,7 +132,7 @@
 				</reportElement>
 				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="4"/>
 				<textElement markup="styled">
-					<font fontName="open sans" size="11"/>
+					<font fontName="Open Sans" size="11"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{label}]]></textFieldExpression>
 				<hyperlinkAnchorExpression><![CDATA[$F{label}]]></hyperlinkAnchorExpression>
@@ -144,7 +144,7 @@
 				</reportElement>
 				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1"/>
 				<textElement textAlignment="Right" verticalAlignment="Bottom">
-					<font fontName="open sans" size="11"/>
+					<font fontName="Open Sans" size="11"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$V{PAGE_NUMBER} + $F{pageIndex}]]></textFieldExpression>
 				<hyperlinkAnchorExpression><![CDATA[$F{label}]]></hyperlinkAnchorExpression>
@@ -159,7 +159,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="open sans"/>
+					<font fontName="Open Sans"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($V{MASTER_CURRENT_PAGE}-1==0?"0":"")+
 ($V{MASTER_CURRENT_PAGE}-1==1?"i":"")+

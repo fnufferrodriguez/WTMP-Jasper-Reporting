@@ -5,7 +5,7 @@ plugins {
 
 task zipJasper(type: Zip) {
     from '.'
-    include '*.zip'
+    include '*.png'
     include '*.jrxml'
     archiveBaseName = 'usbr-actionpanel-jasper'
     includeEmptyDirs = false
